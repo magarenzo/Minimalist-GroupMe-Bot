@@ -4,7 +4,7 @@ GroupMe bot that sends random facts about birds daily
 
 ---
 
-`bot.sh` sets a variable equal to the output of a command which prints the first line of a text file. The script then removes that line from the text file so that it doesn't get used again. Finally, the script posts the message to the group that the bot exists in. [Crontab](http://crontab.org/) used for scheduling daily automation.
+`groupMeBot.sh` sets a variable equal to the output of a command which prints the first line of a text file. The script then removes that line from the text file so that it doesn't get used again. Finally, the script posts the message to the group that the bot exists in. [Crontab](http://crontab.org/) used for scheduling daily automation.
 
 ---
 
