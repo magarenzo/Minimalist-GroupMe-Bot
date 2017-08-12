@@ -4,7 +4,7 @@ Create a simple GroupMe bot using Shell
 
 ---
 
-<i>groupMeBot.sh</i> is a Shell script containing only 3 lines of code.
+<i>groupMeBot.sh</i> is a Shell script containing only 3 lines of code:
 
 `var=$(head -n1 ./facts.txt)` sets a variable equal to the first line of a text file.
 
@@ -18,4 +18,4 @@ I created the bot and learned about the software's API using GroupMe's [bots tut
 
 ---
 
-I personally use this script to send a random bird fact daily to my team's GroupMe chat.
+This script was created to send a random bird fact daily to my team's GroupMe chat.
