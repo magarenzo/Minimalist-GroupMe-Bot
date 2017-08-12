@@ -1,12 +1,18 @@
-# bird-facts-groupme-bot
+# simple-shell-groupme-bot
 
-GroupMe bot that sends random facts about birds daily
+Create a simple GroupMe bot using Shell
 
 ---
 
-`groupMeBot.sh` sets a variable equal to the output of a command which prints the first line of a text file. The script then removes that line from the text file so that it doesn't get used again. Finally, the script posts the message to the group that the bot exists in. [Crontab](http://crontab.org/) used for scheduling daily automation.
+<i>groupMeBot.sh</i> is a Shell script containing only 3 lines of code.
 
-`crontab.txt` provides an example of how the automation can be set up.
+`var=$(head -n1 ./facts.txt)` sets a variable equal to the first line of a text file.
+
+`sed -i '1d' ./facts.txt` removes the first line from a text file.
+
+`curl -d '{"text" : "'"$var"'", "bot_id" : "secret_string"}' https://api.groupme.com/v3/bots/post` is GroupMe's way to send an HTTP POST using [cURL](https://curl.haxx.se/).
+
+I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab.txt</i> provides an example of how the automation can be set up.
 
 ---
 
@@ -14,4 +20,4 @@ Created the bot and learned about the software's API using GroupMe's [bots tutor
 
 ---
 
-Created as a second fun side project so that my team's GroupMe chat receives a random bird fact daily.
+I personally use this script to send a random bird fact daily to my team's GroupMe chat.
