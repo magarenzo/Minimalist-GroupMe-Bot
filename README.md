@@ -18,4 +18,12 @@ I created the bot and learned about the software's API using GroupMe's [bots tut
 
 ---
 
+<h3>Necessary installations:</h3>
+
+`sudo apt-get update`
+
+`sudo apt-get install curl`
+
+---
+
 This script was created to send a random bird fact daily to my team's GroupMe chat.
