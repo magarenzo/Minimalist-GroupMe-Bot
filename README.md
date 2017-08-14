@@ -10,7 +10,7 @@ Create a simple GroupMe bot with only 3 lines in Shell
 
 `sed -i '1d' ./facts.txt` removes the first line from a text file.
 
-`curl -d '{"text" : "'"$var"'", "bot_id" : "secret_string"}' https://api.groupme.com/v3/bots/post` is GroupMe's way to send an HTTP POST using [cURL](https://curl.haxx.se/).
+`curl -d '{"text" : "'"$var"'", "bot_id" : "secret_string"}' https://api.groupme.com/v3/bots/post` is GroupMe's way to send an HTTP POST using [curl](https://curl.haxx.se/).
 
 I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab.txt</i> provides an example of how this automation can be set up.
 
@@ -18,7 +18,7 @@ I created the bot and learned about the software's API using GroupMe's [bots tut
 
 ---
 
-<h3>Necessary installations:</h3>
+<h3>Necessary Installations:</h3>
 
 [`curl`](https://curl.haxx.se/)
 
