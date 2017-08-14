@@ -1,4 +1,4 @@
-# simple-shell-groupme-bot
+# simple-groupme-bot
 
 Create a simple GroupMe bot with 3 lines in Shell
 
