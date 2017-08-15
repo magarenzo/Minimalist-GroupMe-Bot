@@ -1,4 +1,4 @@
-# simple-groupme-bot
+# minimalist-groupme-bot
 
 Create a minimalist GroupMe bot
 
