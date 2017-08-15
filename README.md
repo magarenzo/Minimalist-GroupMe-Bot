@@ -30,4 +30,4 @@ I created the bot and learned about the software's API using GroupMe's [bots tut
 
 ---
 
-This script was created to send a random bird fact daily to my team's GroupMe chat.
+This bot was created to send a random bird fact daily to my team's GroupMe chat.
