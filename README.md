@@ -4,7 +4,7 @@ Create a minimalist GroupMe bot
 
 ---
 
-<i>groupMeBot.sh</i> is a Shell script containing only 3 lines of code:
+<i>groupMeBot.sh</i> contains only 3 lines of code (you can easily decrease this number by piping commands together or increase this number to make the bot do more work; it all depends on what you want it to do):
 
 * `var=$(head -n1 ./facts.txt)` sets a variable equal to the first line of a text file.
 
