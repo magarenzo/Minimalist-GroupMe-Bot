@@ -24,4 +24,10 @@ I created the bot and learned about the software's API using GroupMe's [bots tut
 
 ---
 
+<h3>TODO:</h3>
+
+* Write what occurs to a log file
+
+---
+
 This script was created to send a random bird fact daily to my team's GroupMe chat.
