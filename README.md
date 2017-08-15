@@ -24,7 +24,7 @@ I created the bot and learned about the software's API using GroupMe's [bots tut
 
 ---
 
-<h3>TODO:</h3>
+<h3>To Do:</h3>
 
 * Write what occurs to a log file
 
