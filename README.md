@@ -1,6 +1,6 @@
 # simple-groupme-bot
 
-Create a simple GroupMe bot with only 3 lines in Shell
+Create a minimalist GroupMe bot
 
 ---
 
