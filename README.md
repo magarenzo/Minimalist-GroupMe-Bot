@@ -12,7 +12,7 @@ Create a minimalist GroupMe bot
 
 * `curl -d '{"text" : "'"$var"'", "bot_id" : "secret_string"}' https://api.groupme.com/v3/bots/post` is GroupMe's way to send an HTTP POST using [curl](https://curl.haxx.se/).
 
-I use [Crontab](http://crontab.org/) for scheduling daily automation. Scroll down for an example of how this automation can be set up.
+I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click here](https://github.com/magarenzo/minimalist-groupme-bot/blob/master/README.md#crontab) for an example.
 
 I created the bot and learned about the software's API using GroupMe's [bots tutorial](https://dev.groupme.com/tutorials/bots).
 
