@@ -1,10 +1,10 @@
-# minimalist-groupme-bot
+# Minimalist GroupMe Bot
 
 Create a minimalist GroupMe bot
 
----
+## About
 
-[<i>bot.sh</i>](https://github.com/magarenzo/minimalist-groupme-bot/blob/master/bot.sh) contains only 3 lines of code (you can easily decrease this number by piping commands together or increase this number to make the bot do more work; it all depends on what you want it to do):
+[<i>bot.sh</i>](src/bot.sh) contains only 3 lines of code (you can easily decrease this number by piping commands together or increase this number to make the bot do more work; it all depends on what you want it to do):
 
 * `var=$(head -n1 ./facts.txt)` sets a variable equal to the first line of a text file.
 
@@ -12,28 +12,24 @@ Create a minimalist GroupMe bot
 
 * `curl -d '{"text" : "'"$var"'", "bot_id" : "secret_string"}' https://api.groupme.com/v3/bots/post` is GroupMe's way to send an HTTP POST using [curl](https://curl.haxx.se/).
 
-I use [Crontab](http://crontab.org/) for scheduling daily automation. [Click here](https://github.com/magarenzo/minimalist-groupme-bot/blob/master/README.md#crontab) for an example.
+I use [Crontab](http://crontab.org/) for scheduling daily automation
 
 I created the bot and learned about the software's API using [GroupMe's bots tutorial](https://dev.groupme.com/tutorials/bots).
 
----
-
-<h3>Necessary Installations:</h3>
-
-[`curl`](https://curl.haxx.se/)
-
----
-
-<h3>Crontab:</h3>
+## Crontab
 
 `0 12 * * * ./groupMeBot.sh`
 
----
+## TODO
 
-<h3>To Do:</h3>
+Write what occurs to a log file
 
-* Write what occurs to a log file
+## Dependency
 
----
+[`curl`](https://curl.haxx.se/)
 
-This was created to send a random bird fact daily to my team's GroupMe chat.
+## Owner
+
+* Michael A. Agarenzo
+
+* This was created to send a random bird fact daily to my team's GroupMe chat.
