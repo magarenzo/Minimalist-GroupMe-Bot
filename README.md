@@ -30,6 +30,8 @@ Write what occurs to a log file
 
 ## Owner
 
-* Michael A. Agarenzo
+Michael A. Agarenzo
 
-* This was created to send a random bird fact daily to my team's GroupMe chat.
+This was created to send a random bird fact daily to my team's GroupMe chat.
+
+[&#127867; Buy me a cider, or three!](https://www.buymeacoffee.com/magarenzo)
