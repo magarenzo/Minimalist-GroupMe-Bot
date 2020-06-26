@@ -33,5 +33,3 @@ Write what occurs to a log file
 Michael A. Agarenzo
 
 This was created to send a random bird fact daily to my team's GroupMe chat
-
-[&#127867; Buy me a cider, or three!](https://www.buymeacoffee.com/magarenzo)
