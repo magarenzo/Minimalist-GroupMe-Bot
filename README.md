@@ -2,7 +2,7 @@
 
 Create a minimalist GroupMe bot
 
-## About
+## Overview
 
 [<i>bot.sh</i>](src/bot.sh) contains only 3 lines of code (you can easily decrease this number by piping commands together or increase this number to make the bot do more work; it all depends on what you want it to do):
 
@@ -16,20 +16,20 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation
 
 I created the bot and learned about the software's API using [GroupMe's bots tutorial](https://dev.groupme.com/tutorials/bots)
 
-## Crontab
+### Crontab
 
 `0 12 * * * ./groupMeBot.sh`
-
-## TODO
-
-Write what occurs to a log file
 
 ## Dependency
 
 [`curl`](https://curl.haxx.se/)
 
+## TODO
+
+Write what occurs to a log file
+
 ## Owner
 
-Michael A. Agarenzo
+[Michael A. Agarenzo](https://magarenzo.com)
 
-This was created to send a random bird fact daily to my team's GroupMe chat
+This was originally created to send a random bird fact daily to my old team's GroupMe chat
