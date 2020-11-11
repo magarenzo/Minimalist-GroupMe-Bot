@@ -24,10 +24,6 @@ sed -i '1d' ./facts.txt
 curl -d '{"text" : "'"$var"'", "bot_id" : "secret_string"}' https://api.groupme.com/v3/bots/post
 ```
 
-I used Crontab for scheduling daily automation
-
-I created the bot and learned about the software's API using [GroupMe's bots tutorial](https://dev.groupme.com/tutorials/bots)
-
 ### Crontab
 
 ```
@@ -39,6 +35,12 @@ I created the bot and learned about the software's API using [GroupMe's bots tut
 * [Crontab](http://crontab.org/)
 
 * [curl](https://curl.haxx.se/)
+
+## Resources
+
+* I used Crontab for scheduling daily automation
+
+* I created the bot and learned about the software's API using [GroupMe's bots tutorial](https://dev.groupme.com/tutorials/bots)
 
 ## TODO
 
