@@ -4,25 +4,41 @@ Create a minimalist GroupMe bot
 
 ## Overview
 
-[<i>bot.sh</i>](src/bot.sh) contains only 3 lines of code (you can easily decrease this number by piping commands together or increase this number to make the bot do more work; it all depends on what you want it to do):
+`bot.sh` contains only 3 lines of code (you can easily decrease this number by piping commands together or increase this number to make the bot do more work; it all depends on what you want it to do):
 
-* `var=$(head -n1 ./facts.txt)` sets a variable equal to the first line of a text file
+1. Set a variable equal to the first line of a text file:
 
-* `sed -i '1d' ./facts.txt` removes the first line from a text file
+```shell
+var=$(head -n1 ./facts.txt)
+```
 
-* `curl -d '{"text" : "'"$var"'", "bot_id" : "secret_string"}' https://api.groupme.com/v3/bots/post` is GroupMe's way to send an HTTP POST using [curl](https://curl.haxx.se/)
+2. Remove the first line from a text file:
 
-I use [Crontab](http://crontab.org/) for scheduling daily automation
+```shell
+sed -i '1d' ./facts.txt
+```
+
+3. GroupMe's way to send an HTTP POST via curl:
+
+```shell
+curl -d '{"text" : "'"$var"'", "bot_id" : "secret_string"}' https://api.groupme.com/v3/bots/post
+```
+
+I used Crontab for scheduling daily automation
 
 I created the bot and learned about the software's API using [GroupMe's bots tutorial](https://dev.groupme.com/tutorials/bots)
 
 ### Crontab
 
-`0 12 * * * ./groupMeBot.sh`
+```
+0 12 * * * ./groupMeBot.sh
+```
 
-## Dependency
+## Dependencies
 
-[`curl`](https://curl.haxx.se/)
+* [Crontab](http://crontab.org/)
+
+* [`curl`](https://curl.haxx.se/)
 
 ## TODO
 
