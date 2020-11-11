@@ -38,7 +38,7 @@ I created the bot and learned about the software's API using [GroupMe's bots tut
 
 * [Crontab](http://crontab.org/)
 
-* [`curl`](https://curl.haxx.se/)
+* [curl](https://curl.haxx.se/)
 
 ## TODO
 
