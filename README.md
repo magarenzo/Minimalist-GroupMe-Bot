@@ -48,6 +48,6 @@ Write what occurs to a log file
 
 ## Owner
 
-[Michael A. Agarenzo](https://magarenzo.com)
+[Michael A.](https://linkedin.com/in/magarenzo)
 
 This was originally created to send a random bird fact daily to my old team's GroupMe chat
